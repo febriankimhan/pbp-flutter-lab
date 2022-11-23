@@ -74,7 +74,7 @@ class MyWatchListDetail extends StatelessWidget {
             flex: 1,
             child: SizedBox(
               width: double.infinity,
-              child: ElevatedButton(
+              child: TextButton(
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all(Colors.blue),
                 ),
